@@ -9,7 +9,7 @@ const SearchScreen = ()=>{
     const[term,setTerm]=useState('');
 
     //initial search added 
-    
+    //initial search alternative use effect
 
     const searchApi = async(searchTerm)=>{
         console.log('Search Started');
